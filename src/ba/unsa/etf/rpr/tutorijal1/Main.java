@@ -15,11 +15,10 @@ public class Main {
         System.out.print("Unesite broj n: ");
         int n=ulaz.nextInt();
         System.out.print("Brojevi koji su djeljivi sa sumom svojih cifara su: ");
-        for(int i=1;i<=n;i++){
-            if(i%sumaCifara(i)==0){
+        for(int i=1;i<=n;i++) {
+            if (i % sumaCifara(i) == 0) {
                 System.out.print(i + " ");
             }
         }
-        // write your code here
     }
 }
